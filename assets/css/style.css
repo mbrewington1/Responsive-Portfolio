@@ -221,3 +221,20 @@ input[type=submit] {
     color: white;
     text-align: center;
 }
+
+@media only screen and (max-width: 640px) {
+        #masthead {
+        position: static;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+  
+@media only screen and (max-width: 980px) {
+    .Mainbody {overflow: auto; width: 90%; margin:auto;
+    }
+    .mypic  {width:50%;}
+    nav {width:100%; text-align: left;}
+}
